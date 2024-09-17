@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Mueblerias", ".", "{C44CB68A-6BC0-4755-BC8E-FFFB0AD62E37}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52226"
+		Debug.AspNetCompiler.PhysicalPath = "..\Mueblerias\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52226\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52226"
+		Release.AspNetCompiler.PhysicalPath = "..\Mueblerias\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52226\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52226"
+		SlnRelativePath = "..\Mueblerias\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C44CB68A-6BC0-4755-BC8E-FFFB0AD62E37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44CB68A-6BC0-4755-BC8E-FFFB0AD62E37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8C801C7-A4B1-4D7A-9C3F-2FA928B43EE5}
+	EndGlobalSection
+EndGlobal
