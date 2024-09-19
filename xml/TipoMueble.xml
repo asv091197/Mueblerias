@@ -11,20 +11,17 @@
 
 
 	<Datos>
-		<Nombre>Dulce Hogar</Nombre>
+		<Nombre>ASV Muebles</Nombre>
 		<Descripcion>Bienvenidos a Dulce Hogar  servicio y calidad</Descripcion>
-		<Direccion>Calle de la Cruz CP.72489</Direccion>
+		<Direccion>M. Flores #516 Col. San felipe Hueyotlipan CP.72489</Direccion>
 		<Telefono>2311559318</Telefono>
-		<correo>as.ventas.servicios@gmail.com</correo>
+		<correo>asv.ventas.servicios@gmail.com</correo>
 		<Imagen>/img/Fachada.jpg</Imagen>
 		<Horarios>
-			<Lunes>09:00-19:00</Lunes>
-			<Martes>09:00-19:00</Martes>
-			<Miercoles>09:00-19:00</Miercoles>
-			<Jueves>09:00-19:00</Jueves>
-			<Viernes>09:00-20:00</Viernes>
-			<Sabado>10:00-17:00</Sabado>
-			<Domingo>Cerrado</Domingo>
+			<Horario>De Lunes a Jueves : 09:00-19:00</Horario>
+			<Horario>Viernes : 09:00-19:00</Horario>
+			<Horario>Sabado : 10:00-17:00</Horario>
+			<Horario>Domingo : Cerrado</Horario>
 		</Horarios>
 	</Datos>
 

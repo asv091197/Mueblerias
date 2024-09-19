@@ -228,235 +228,21 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
-    <div class="container  ">
-
-      <div class="row">
-        <div class="col-md-6 ">
-          <div class="img-box">
-            <img src="images/about-img.png" alt=""/>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                We Are Feane
-              </h2>
-            </div>
-            <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
-            </p>
-            <a href="">
-              Read More
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <!-- end about section -->
 
   <!-- book section -->
-  <section class="book_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Book A Table
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form_container">
-            <form action="">
-              <div>
-                <input type="text" class="form-control" placeholder="Your Name" />
-              </div>
-              <div>
-                <input type="text" class="form-control" placeholder="Phone Number" />
-              </div>
-              <div>
-                <input type="email" class="form-control" placeholder="Your Email" />
-              </div>
-              <div>
-                <select class="form-control nice-select wide">
-                  <option value="disabled selected" >
-                    How many persons?
-                  </option>
-                  <option value="">
-                    2
-                  </option>
-                  <option value="">
-                    3
-                  </option>
-                  <option value="">
-                    4
-                  </option>
-                  <option value="">
-                    5
-                  </option>
-                </select>
-              </div>
-              <div>
-                <input type="date" class="form-control" />
-              </div>
-              <div class="btn_box">
-                <button>
-                  Book Now
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="map_container ">
-            <div id="googleMap"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
   <!-- end book section -->
 
   <!-- client section -->
 
-  <section class="client_section layout_padding-bottom">
-    <div class="container">
-      <div class="heading_container heading_center psudo_white_primary mb_45">
-        <h2>
-          What Says Our Customers
-        </h2>
-      </div>
-      <div class="carousel-wrap row ">
-        <div class="owl-carousel client_owl-carousel">
-          <div class="item">
-            <div class="box">
-              <div class="detail-box">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                </p>
-                <h6>
-                  Moana Michell
-                </h6>
-                <p>
-                  magna aliqua
-                </p>
-              </div>
-              <div class="img-box">
-                <img src="images/client1.jpg" alt="" class="box-img" />
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="detail-box">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                </p>
-                <h6>
-                  Mike Hamell
-                </h6>
-                <p>
-                  magna aliqua
-                </p>
-              </div>
-              <div class="img-box">
-                <img src="images/client2.jpg" alt="" class="box-img" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- end client section -->
 
-  <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 footer-col">
-          <div class="footer_contact">
-            <h4>
-              Contact Us
-            </h4>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  Location
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +01 1234567890
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  demo@gmail.com
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 footer-col">
-          <div class="footer_detail">
-            <a href="" class="footer-logo">
-              Feane
-            </a>
-            <p>
-              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
-            </p>
-            <div class="footer_social">
-              <a href="">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="">
-                <i class="fa fa-pinterest" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 footer-col">
-          <h4>
-            Opening Hours
-          </h4>
-          <p>
-            Everyday
-          </p>
-          <p>
-            10.00 Am -10.00 Pm
-          </p>
-        </div>
-      </div>
-      <div class="footer-info">
-        <p>
-           <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a><br/><br/>
-          <span id="displayYear"></span> Distributed By
-          <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
-        </p>
-      </div>
-    </div>
-  </footer>
-  <!-- footer section -->
+
 
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
@@ -786,6 +572,92 @@
 						</script>
 			
 		</section>
+
+	<!-- footer section -->
+	<footer class="footer_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 footer-col">
+					<div class="footer_contact">
+						<h4>
+						Contacto
+						</h4>
+						<div class="contact_link_box">
+							<a href="">
+								<i class="fa fa-map-marker" aria-hidden="true"></i>
+								<span>
+									<xsl:value-of select="Datos/Direccion"/>
+								</span>
+							</a>
+							<a href="">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<span>
+									
+										<xsl:value-of select="Datos/Telefono"/>
+								
+								</span>
+							</a>
+							<a href="">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<span>
+									demo@gmail.com
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 footer-col">
+					<div class="footer_detail">
+						<a href="" class="footer-logo">
+							ASV Muebles
+						</a>
+						<p>
+							Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
+						</p>
+						<div class="footer_social">
+							<a href="">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+							<a href="">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+							</a>
+							<a href="">
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+							</a>
+							<a href="">
+								<i class="fa fa-instagram" aria-hidden="true"></i>
+							</a>
+							<a href="">
+								<i class="fa fa-pinterest" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 footer-col">
+					<h4>
+						Horarios
+					</h4>
+					<p>
+						<xsl:for-each select="Datos/Horarios/Horario">
+							<p>
+								<xsl:value-of select="."/>
+							</p>
+						</xsl:for-each>
+					</p>
+					
+				</div>
+			</div>
+			<div class="footer-info">
+				<p>
+					<span id="displayYear"></span> All Rights Reserved By
+					<a href="https://html.design/">Free Html Templates</a><br/><br/>
+					<span id="displayYear"></span> Distributed By
+					<a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- footer section -->
 		<!-- End Contact Section -->
 
 </xsl:template>
@@ -803,9 +675,9 @@
             <br></br>
             <h2>Audio</h2>
             <div id="Audio" style="width:100%"></div>
-            <img src="assets/img/gallery/gallery-1.jpg" width="100%"></img>
+            <img src="assets/m.jpg" width="100%"></img>
             <audio controls="true" style="width:100%" autoplay="autoplay">
-                <source src="assets/audio.mp3"></source>
+                <source src="assets/REM.mp3"></source>
             </audio>
         </section>
 
@@ -814,7 +686,7 @@
             <h2>Video</h2>
             <div id="Video" style="width:100%">
                 <video controls="true" width="100%" poster="assets/img/light.jpg">
-                    <source src="assets/video.mp4"></source>
+                    <source src="assets/plan.mp4"></source>
                 </video>
             </div>
         </section>
