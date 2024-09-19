@@ -5,7 +5,7 @@
 		<Opcion Url="/Default.aspx?Id=1" Texto="Categorias" Id="1"></Opcion>
 		<Opcion Url="/Default.aspx?Id=2" Texto="Contacto" Id="2"></Opcion>
 		<Opcion Url="/Default.aspx?Id=3" Texto="Sucursales" Id="3"></Opcion>
-		<Opcion Url="/Default.aspx?Id=3" Texto="Play Room" Id="4"></Opcion>
+		<Opcion Url="/Default.aspx?Id=4" Texto="Play Room" Id="4"></Opcion>
 	</Opciones>
 
 
@@ -30,154 +30,153 @@
 
 
 
-	<Inventario>
 		<Categorias>
-			<Categoria>
-				<Nombre>Salas</Nombre>
-				<Muebles>
-					<Mueble>
+			<Categoria Nombre="Salas">
+			
+			
+					<Mueble Nombre="Sofá Seccional" Orden="1">
 						<Nombre>Sofá Seccional</Nombre>
 						<Material>Tela</Material>
 						<Color>Gris Oscuro</Color>
 						<Dimensiones>250x150x90 cm</Dimensiones>
 						<Precio>9500.00</Precio>
-						<Imagen>assets/img/Sofa_Seccional.jpeg</Imagen>
+						<Imagen>assets/img/Sofa_Seccional.jpg</Imagen>
 					</Mueble>
-					<Mueble>
-						<Nombre>Sala Casa Anahí Taurus Beige 4 Piezas</Nombre>
+					<Mueble Nombre="Sala Casa Anahí Taurus Beige 4 Piezas" Orden="2">
+					
 						<Material>Madera</Material>
 						<Color>Roble</Color>
 						<Dimensiones>120x60x45 cm</Dimensiones>
 						<Precio>8500.00</Precio>
 						<Imagen>assets/img/mesadecentro.png</Imagen>
 					</Mueble>
-					<Mueble>
-						<Nombre>Sala Modular Derecha Marruecos Gris</Nombre>
+					<Mueble Nombre="Sala Modular Derecha Marruecos Gris" Orden="3">
+						
 						<Material>MDF</Material>
 						<Color>Gris</Color>
 						<Dimensiones>180x80x30 cm</Dimensiones>
 						<Precio>9500.00</Precio>
 						<Imagen>assets/img/estanteriamoderna.png</Imagen>
 					</Mueble>
-				</Muebles>
+				
 			</Categoria>
-			<Categoria>
-				<Nombre>Comedor</Nombre>
-				<Muebles>
-					<Mueble>
-						<Nombre>Mesa de Comedor</Nombre>
+			
+			<Categoria Nombre="	Comedor">
+			
+				
+					<Mueble Nombre="Mesa de Comedor" Orden="1">
+						
 						<Material>Madera Maciza</Material>
 						<Color>Cerezo</Color>
 						<Dimensiones>200x100x75 cm</Dimensiones>
 						<Precio>12000.00</Precio>
 						<Imagen>assets/img/mesademadera.jpg</Imagen>
 					</Mueble>
-					<Mueble>
-						<Nombre>Sillas de Comedor (Juego de 4)</Nombre>
+					<Mueble Nombre="Sillas de Comedor (Juego de 4)" Orden="2">
+						
 						<Material>Madera y Tela</Material>
 						<Color>Beige</Color>
 						<Dimensiones>45x45x90 cm</Dimensiones>
 						<Precio>5000.00</Precio>
-						<Imagen>assets/img/sillacomedor.jgp</Imagen>
+						<Imagen>assets/img/sillacomedor.jpg</Imagen>
 					</Mueble>
-					<Mueble>
-						<Nombre>Aparador</Nombre>
+					<Mueble Nombre="Aparador" Orden="3">
+						
 						<Material>MDF</Material>
 						<Color>Blanco</Color>
 						<Dimensiones>160x45x80 cm</Dimensiones>
 						<Precio>7500.00</Precio>
-						<Imagen> assets/img/aparador.jgp</Imagen>
+						<Imagen> assets/img/aparador.jpg</Imagen>
 					</Mueble>
-				</Muebles>
+				
 			</Categoria>
-			<Categoria>
-				<Nombre>Dormitorio</Nombre>
-				<Muebles>
-					<Mueble>
-						<Nombre>Cama King Size</Nombre>
+			<Categoria Nombre="Dormitorio">
+		
+				
+					<Mueble Nombre="Cama King Size" Orden="1">
+						
 						<Material>Madera y Tela</Material>
 						<Color>Gris Claro</Color>
 						<Dimensiones>200x180x100 cm</Dimensiones>
 						<Precio>15000.00</Precio>
-						<Imagen> assets/img/CamaKingsize.jgp</Imagen>
+						<Imagen> assets/img/CamaKingsize.jpg</Imagen>
 					</Mueble>
-					<Mueble>
-						<Nombre>Mesitas de Noche (Juego de 2)</Nombre>
+					<Mueble Nombre="Mesitas de Noche (Juego de 2)" Orden="2">
+						
 						<Material>MDF</Material>
 						<Color>Negro</Color>
 						<Dimensiones>50x40x60 cm</Dimensiones>
 						<Precio>3000.00</Precio>
 						<Imagen> assets/img/MesitasdeNoche.jpeg</Imagen>
 					</Mueble>
-					<Mueble>
-						<Nombre>Armario de 3 Puertas</Nombre>
+					<Mueble Nombre="Armario de 3 Puertas" Orden="3">
+						
 						<Material>Madera Maciza</Material>
 						<Color>Roble</Color>
 						<Dimensiones>240x60x220 cm</Dimensiones>
 						<Precio>20000.00</Precio>
-						<Imagen> assets/img/armario.jgp</Imagen>
+						<Imagen> assets/img/armario.jpg</Imagen>
 					</Mueble>
-				</Muebles>
+				
 			</Categoria>
-			<Categoria>
-				<Nombre>Oficina</Nombre>
-				<Muebles>
-					<Mueble>
-						<Nombre>Escritorio Ejecutivo</Nombre>
+			<Categoria Nombre="Oficina">
+				
+				
+					<Mueble Nombre="Escritorio Ejecutivo" Orden="1">
+						
 						<Material>Madera y Vidrio</Material>
 						<Color>Nogal</Color>
 						<Dimensiones>180x80x75 cm</Dimensiones>
 						<Precio>8000.00</Precio>
-						<Imagen> assets/img/Escritorio-ejecutivo.jgp</Imagen>
+						<Imagen>assets/img/Escritorio-ejecutivo.jpg</Imagen>
 					</Mueble>
-					<Mueble>
-						<Nombre>Silla de Oficina</Nombre>
+					<Mueble Nombre="Silla de Oficina" Orden="2">
+						
 						<Material>Cuero</Material>
 						<Color>Negro</Color>
 						<Dimensiones>50x50x120 cm</Dimensiones>
 						<Precio>4000.00</Precio>
 						<Imagen> assets/img/sillaoficina.jpeg</Imagen>
 					</Mueble>
-					<Mueble>
-						<Nombre>Biblioteca</Nombre>
+					<Mueble Nombre="Biblioteca" Orden="3">
+						
 						<Material>MDF</Material>
 						<Color>Blanco</Color>
 						<Dimensiones>200x90x35 cm</Dimensiones>
 						<Precio>6000.00</Precio>
 						<Imagen> assets/img/librero.png</Imagen>
 					</Mueble>
-				</Muebles>
+				
 			</Categoria>
-			<Categoria>
-				<Nombre>Exteriores</Nombre>
-				<Muebles>
-					<Mueble>
-						<Nombre>Mesa de Jardín</Nombre>
+			<Categoria Nombre="Exteriores">
+			
+				
+					<Mueble Nombre="Mesa de Jardín">
+						
 						<Material>Madera y Metal</Material>
 						<Color>Madera Natural</Color>
 						<Dimensiones>180x90x75 cm</Dimensiones>
 						<Precio>10000.00</Precio>
-						<Imagen> assets/img/mesademadera.jpeg</Imagen>
+						<Imagen> assets/img/mesademadera.jpg</Imagen>
 
 					</Mueble>
-					<Mueble>
-						<Nombre>Sillas de Jardín (Juego de 4)</Nombre>
-						<Material>Metal y Tela</Material>
+					<Mueble Nombre="Sillas de Jardín (Juego de 4)">
+					
 						<Color>Gris Oscuro</Color>
-						<Dimensiones>45x45x90 cm</Dimensiones>
+						<Dimensiones>45x45x90 cm</Dimensiones>	
 						<Precio>7000.00</Precio>
 						<Imagen> assets/img/sillaexterior.png</Imagen>
 					</Mueble>
-					<Mueble>
-						<Nombre>Sillón de Exterior</Nombre>
+					<Mueble Nombre="Sillón de Exterior" >
+						
 						<Material>Ratán Sintético</Material>
 						<Color>Marrón</Color>
 						<Dimensiones>150x90x85 cm</Dimensiones>
 						<Precio>8000.00</Precio>
 						<Imagen> assets/img/sillonexterior.png</Imagen>
 					</Mueble>
-				</Muebles>
+				
 			</Categoria>
 		</Categorias>
-	</Inventario>
+	
 </Muebleria>
