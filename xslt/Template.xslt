@@ -22,7 +22,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
   <meta name="keywords" content="" />
-	  
+	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet"/>
 	<head>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css"/>
@@ -39,6 +39,7 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/sweetalert2.min" />
 
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -59,7 +60,7 @@
      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	
 	 <script src="js/carrito.js"></script>
-	
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
     
@@ -202,10 +203,8 @@
 				<xsl:when test="$TipoMueble=2">
 					<xsl:call-template name="Contacto"></xsl:call-template>
 				</xsl:when>
-				<xsl:when test="$TipoMueble=3">
-					<xsl:call-template name="Sucursales"></xsl:call-template>
-				</xsl:when>
-			<xsl:when test="$TipoMueble=4">
+				
+			<xsl:when test="$TipoMueble=3">
 					<xsl:call-template name="PlayRoom"></xsl:call-template>
 				</xsl:when>
 				<xsl:otherwise>
@@ -273,178 +272,34 @@
 
 	
 <xsl:template name="Home">
-	  <section class="offer_section layout_padding-bottom">
-    <div class="offer_container">
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-6  ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="images/o1.jpg" alt=""/>
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Tasty Thursdays
-                </h5>
-                <h6>
-                  <span>20%</span> Off
-                </h6>
-                <a href="">
-                  Order Now <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
-                    <g>
-                      <g>
-                        <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
-                     c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
-                      </g>
-                    </g>
-                    <g>
-                      <g>
-                        <path d="M439.296,84.91c-1.024,0-2.56-0.512-4.096-0.512H112.64l-5.12-34.304C104.448,27.566,84.992,10.67,61.952,10.67H20.48
-                     C9.216,10.67,0,19.886,0,31.15c0,11.264,9.216,20.48,20.48,20.48h41.472c2.56,0,4.608,2.048,5.12,4.608l31.744,216.064
-                     c4.096,27.136,27.648,47.616,55.296,47.616h212.992c26.624,0,49.664-18.944,55.296-45.056l33.28-166.4
-                     C457.728,97.71,450.56,86.958,439.296,84.91z" />
-                      </g>
-                    </g>
-                    <g>
-                      <g>
-                        <path d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296
-                     c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
-                      </g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6  ">
-            <div class="box ">
-              <div class="img-box">
-                <img src="images/o2.jpg" alt=""/>
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Pizza Days
-                </h5>
-                <h6>
-                  <span>15%</span> Off
-                </h6>
-                <a href="">
-                  Order Now <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve">
-                    <g>
-                      <g>
-                        <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248
-                     c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z" />
-                      </g>
-                    </g>
-                    <g>
-                      <g>
-                        <path d="M439.296,84.91c-1.024,0-2.56-0.512-4.096-0.512H112.64l-5.12-34.304C104.448,27.566,84.992,10.67,61.952,10.67H20.48
-                     C9.216,10.67,0,19.886,0,31.15c0,11.264,9.216,20.48,20.48,20.48h41.472c2.56,0,4.608,2.048,5.12,4.608l31.744,216.064
-                     c4.096,27.136,27.648,47.616,55.296,47.616h212.992c26.624,0,49.664-18.944,55.296-45.056l33.28-166.4
-                     C457.728,97.71,450.56,86.958,439.296,84.91z" />
-                      </g>
-                    </g>
-                    <g>
-                      <g>
-                        <path d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296
-                     c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z" />
-                      </g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                    <g>
-                    </g>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+	 
 
   <!-- end offer section -->
 </xsl:template>
 
-<xsl:template name="Categorias">
+	<xsl:template name="Categorias">
 
-  <section class="food_section layout_padding-bottom">
+	<section class="food_section layout_padding-bottom">
+     <section class="food_section layout_padding">
     <div class="container">
       <div class="heading_container heading_center">
-        <h2>Our Menu</h2>
+        <h2>
+          Our Menu
+        </h2>
       </div>
 
-      <ul class="filters_menu">
-        <ul id="menu-flters">
-          <!-- Default option showing all sections -->
-          <li data-filter="*" class="filter-active">All</li>
-          <!-- Loop through each category to create options -->
-          <xsl:for-each select="Categorias/Categoria">
-            <li data-filter=".{@Nombre}">
-              <xsl:value-of select="@Nombre"/>
-            </li>
-          </xsl:for-each>
-        </ul>
+		
+			
+				 <ul class="filters_menu">
+        <li class="active" data-filter="*">All</li>
+       <xsl:for-each select="Categorias/Categoria">
+								<li data-filter=".{@Nombre}">
+									<xsl:value-of select="@Nombre"/>
+								</li>
+							</xsl:for-each>
       </ul>
-
-      <div class="filters-content">
+      	
+        <div class="filters-content">
         <div class="row grid">
           <!-- Loop through each furniture item -->
           <xsl:for-each select="Categorias/Categoria/Mueble">
@@ -509,14 +364,15 @@
       </div>
     </div>
   </section>
-
-  <!-- Add JavaScript to manage the cart -->
-  <script>
    
-  </script>
-</xsl:template>
+  </section>
+  
 
+		<!-- Add JavaScript to manage the cart -->
+		<script>
 
+		</script>
+	</xsl:template>
 
 	
 <xsl:template name="Contacto">
@@ -662,9 +518,7 @@
 
 </xsl:template>
 	
-<xsl:template name="Sucursales">
-	
-</xsl:template>
+
 	
 
 <xsl:template name="PlayRoom">
@@ -755,11 +609,15 @@
             <div class="drop-area" data-shape="triangle">Triángulo</div>
         </div>
 
-        <div id="result" class="mt-3"></div>
+       <div id="result" class="result-message"></div>
+    
+    <!-- Botón de reinicio -->
+    <button id="reset" class="btn btn-warning mt-4">Reiniciar</button>
+
     </div>
 
 	<script>
-const shapes = document.querySelectorAll('.shape');
+	const shapes = document.querySelectorAll('.shape');
 const dropAreas = document.querySelectorAll('.drop-area');
 let correctDrops = 0;
 
@@ -795,13 +653,47 @@ function dropShape(event) {
         correctDrops++;
 
         if (correctDrops === 3) {
-            document.getElementById('result').innerText = '¡Has ganado!';
+            // Usar SweetAlert2 para mostrar que ha ganado
+            Swal.fire({
+                title: '¡Felicitaciones!',
+                text: '¡Has ganado!',
+                icon: 'success',
+                confirmButtonText: 'OK'
+            });
         }
     } else {
-        alert('Forma incorrecta, inténtalo de nuevo.');
+        // Usar SweetAlert2 para mostrar un error
+        Swal.fire({
+            title: 'Error',
+            text: 'Forma incorrecta, inténtalo de nuevo.',
+            icon: 'error',
+            confirmButtonText: 'OK'
+        });
     }
 }
+// Función para reiniciar el juego
+function resetGame() {
+    // Restaurar las figuras a su posición original
+    const shapesContainer = document.getElementById('shapes');
+    shapes.forEach(shape => {
+        shapesContainer.appendChild(shape);
+    });
 
+    // Quitar las clases de éxito de las áreas de destino
+    dropAreas.forEach(area => {
+        area.classList.remove('success');
+    });
+
+    // Reiniciar el contador de correctDrops
+    correctDrops = 0;
+
+    // Limpiar el mensaje de resultado
+    document.getElementById('result').innerText = '';
+}
+
+// Añadir evento al botón de reinicio
+document.getElementById('reset').addEventListener('click', resetGame);
+	
 	</script>
 </xsl:template>
 
